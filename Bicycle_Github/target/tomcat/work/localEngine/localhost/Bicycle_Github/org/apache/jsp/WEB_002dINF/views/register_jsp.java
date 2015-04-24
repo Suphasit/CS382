@@ -129,13 +129,13 @@ public final class register_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\t\t\t\t\t\t\t point the \"action\" attribute to it (eg. action=\"http://mydomain.tld/mail.php\").\r\n");
       out.write("\t\t\t\t\t\t\t More on how it all works here: http://www.1stwebdesigner.com/tutorials/custom-php-contact-forms/\r\n");
       out.write("\t\t\t\t\t\t-->\r\n");
-      out.write("\t\t\t\t\t\t\t<form action=\"addMember\" method=\"POST\">\r\n");
+      out.write("\t\t\t\t\t\t\t<form action=\"addCustomer\" method=\"POST\" name=\"registerForm\">\r\n");
       out.write("\t\t\t\t\t\t\t\t<div class=\"row half\">\r\n");
       out.write("\t\t\t\t\t\t\t\t\t<div class=\"6u\"><input type=\"text\" name=\"fname\" placeholder=\"Firstname\" /></div>\r\n");
       out.write("\t\t\t\t\t\t\t\t\t<div class=\"6u\"><input type=\"text\" name=\"lname\" placeholder=\"Lastname\" /></div>\r\n");
       out.write("\t\t\t\t\t\t\t\t</div>\r\n");
       out.write("\t\t\t\t\t\t\t\t<div class=\"row half\">\r\n");
-      out.write("\t\t\t\t\t\t\t\t\t<div class=\"12u\"><input type=\"text\" name=\"id\" placeholder=\"Citizen ID\" /></div>\r\n");
+      out.write("\t\t\t\t\t\t\t\t\t<div class=\"12u\"><input type=\"text\" name=\"citizenID\" placeholder=\"Citizen ID\" /></div>\r\n");
       out.write("\t\t\t\t\t\t\t\t</div>\r\n");
       out.write("\t\t\t\t\t\t\t\t<div class=\"row\">\r\n");
       out.write("\t\t\t\t\t\t\t\t\t<div class=\"12u\">\r\n");

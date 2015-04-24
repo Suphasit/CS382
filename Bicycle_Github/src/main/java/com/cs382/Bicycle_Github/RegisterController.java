@@ -8,16 +8,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 @RequestMapping("/")
 public class RegisterController {
+	
 	@RequestMapping(method = RequestMethod.GET)
-	public String printHello(ModelMap model){
-		model.addAttribute("message","Hello");
+	public String showUp(){
+		
 		return "register";
 	}
-	@RequestMapping(value="/result",method = RequestMethod.POST)
-	public String goToResult(){
-		
-		return "redirect:/register-result";
-	}
-	
-
 }

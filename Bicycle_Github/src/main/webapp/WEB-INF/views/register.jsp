@@ -55,13 +55,13 @@
 							 point the "action" attribute to it (eg. action="http://mydomain.tld/mail.php").
 							 More on how it all works here: http://www.1stwebdesigner.com/tutorials/custom-php-contact-forms/
 						-->
-							<form action="addMember" method="POST">
+							<form action="addCustomer" method="POST" name="registerForm">
 								<div class="row half">
 									<div class="6u"><input type="text" name="fname" placeholder="Firstname" /></div>
 									<div class="6u"><input type="text" name="lname" placeholder="Lastname" /></div>
 								</div>
 								<div class="row half">
-									<div class="12u"><input type="text" name="id" placeholder="Citizen ID" /></div>
+									<div class="12u"><input type="text" name="citizenID" placeholder="Citizen ID" /></div>
 								</div>
 								<div class="row">
 									<div class="12u">
