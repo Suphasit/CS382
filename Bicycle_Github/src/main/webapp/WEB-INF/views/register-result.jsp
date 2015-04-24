@@ -1,4 +1,6 @@
-<!DOCTYPE HTML>
+<%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
+<%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <html>
 	<head>
 		<title>Big Picture by HTML5 UP</title>
@@ -6,12 +8,14 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.poptrox.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/init.js"></script>
-		<link rel="stylesheet" href="css/skel-noscript.css" />
-		<link rel="stylesheet" href="css/style.css" />
+		<script src="<c:url value="/resources/js/jquery.min.js" />"></script>
+		<script src="<c:url value="/resources/js/jquery.poptrox.min.js" />"></script>
+		<script src="<c:url value="/resources/js/skel.min.js" />"></script>
+		<script src="<c:url value="/resources/js/init.js" />"></script>
+		
+		<link href="<c:url value="/resources/css/skel-noscript.css" />" rel="stylesheet"  type="text/css" />
+		<link href="<c:url value="/resources/css/style.css" />" rel="stylesheet"  type="text/css" />
+		
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
 	<body>
@@ -20,15 +24,15 @@
 			<header id="header">
 
 				<!-- Logo -->
-					<h1 id="logo"><a href="#">Bike Project</a></h1>
+					<h1 id="logo"><a href="register">Bike Project</a></h1>
 				
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
-							<li><a href="#intro">Home</a></li>
-							<li><a href="#one">Station</a></li>
-							<li><a href="#work">Register</a></li>
-							<li><a href="#contact">Contact</a></li>
+							<li><a href="register">Home</a></li>
+							<li><a href="#">Station</a></li>
+							<li><a href="register">Register</a></li>
+							<li><a href="#">Contact</a></li>
 						</ul>
 					</nav>
 

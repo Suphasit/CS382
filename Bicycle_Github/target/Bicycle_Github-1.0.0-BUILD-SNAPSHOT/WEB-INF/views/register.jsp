@@ -24,15 +24,15 @@
 			<header id="header">
 
 				<!-- Logo -->
-					<h1 id="logo"><a href="#">Bike Project</a></h1>
+					<h1 id="logo"><a href="register">Bike Project</a></h1>
 				
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
-							<li><a href="#intro">Home</a></li>
-							<li><a href="register-result.jsp">Station</a></li>
-							<li><a href="#work">Register</a></li>
-							<li><a href="#contact">Contact</a></li>
+							<li><a href="register">Home</a></li>
+							<li><a href="#">Station</a></li>
+							<li><a href="register">Register</a></li>
+							<li><a href="#">Contact</a></li>
 						</ul>
 					</nav>
 
